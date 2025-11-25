@@ -109,6 +109,29 @@ export default function Hero() {
         })();
     }, [setRecepies]);
 
+    /** Auto-filter when selections change */
+    useEffect(() => {
+        const performFilter = async () => {
+            try {
+                setLoading(true);
+                const qs = buildQueryString();
+                const res = await fetch(`/api/recipes?${qs}`);
+                if (!res.ok) throw new Error("Failed to fetch recipes");
+                const data = await res.json();
+                setRecepies({ ...data, cuisine, diet, intolerances: ints });
+            } catch (err) {
+                console.error("Filter failed:", err);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        // Only filter if at least one filter is selected
+        if (cuisine || diet || ints.length > 0) {
+            performFilter();
+        }
+    }, [cuisine, diet, ints, setRecepies]);
+
     /** Build query string with filters */
     const buildQueryString = () => {
         const params = new URLSearchParams();
@@ -120,15 +143,15 @@ export default function Hero() {
         return params.toString();
     };
 
-    const handleSearch = async (e: React.FormEvent) => {
-        e.preventDefault();
+    const handleSearch = async (e?: React.FormEvent) => {
+        if (e) e.preventDefault();
         try {
             setLoading(true);
             const qs = buildQueryString();
             const res = await fetch(`/api/recipes?${qs}`);
+            if (!res.ok) throw new Error("Failed to fetch recipes");
             const data = await res.json();
             setRecepies({ ...data, cuisine, diet, intolerances: ints });
-            // if you later add a focusSearch() util, call it here
         } catch (err) {
             console.error("Search failed:", err);
         } finally {
@@ -136,12 +159,25 @@ export default function Hero() {
         }
     };
 
-    const handleClear = (e: React.MouseEvent) => {
+    const handleClear = async (e: React.MouseEvent) => {
         e.preventDefault();
         setCuisine(undefined);
         setDiet(undefined);
         setInts([]);
         setIntsQuery("");
+
+        // Reset to initial recipes
+        try {
+            setLoading(true);
+            const res = await fetch("/api/recipes?number=20");
+            if (!res.ok) throw new Error("Failed to fetch recipes");
+            const data = await res.json();
+            setRecepies(data);
+        } catch (err) {
+            console.error("Failed to reset recipes:", err);
+        } finally {
+            setLoading(false);
+        }
     };
 
     const pill =
@@ -150,7 +186,7 @@ export default function Hero() {
         "ml-1 inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-white/90 px-1.5 text-xs font-semibold text-blue-700";
 
     return (
-        <section className="relative pt-20">
+        <section className="relative">
             <div className="relative flex min-h-[520px] h-[calc(85vh-80px)] items-center justify-center overflow-hidden">
                 {/* Background gradient */}
                 <div
@@ -213,8 +249,8 @@ export default function Hero() {
                                                     setOpen(null);
                                                 }}
                                                 className={`block w-full rounded-md px-3 py-2 text-left text-sm hover:bg-gray-100 ${cuisine === c
-                                                        ? "bg-blue-50 text-blue-700"
-                                                        : "text-gray-800"
+                                                    ? "bg-blue-50 text-blue-700"
+                                                    : "text-gray-800"
                                                     }`}
                                             >
                                                 {c}
@@ -270,8 +306,8 @@ export default function Hero() {
                                                     setOpen(null);
                                                 }}
                                                 className={`block w-full rounded-md px-3 py-2 text-left text-sm hover:bg-gray-100 ${diet === d
-                                                        ? "bg-blue-50 text-blue-700"
-                                                        : "text-gray-800"
+                                                    ? "bg-blue-50 text-blue-700"
+                                                    : "text-gray-800"
                                                     }`}
                                             >
                                                 {d}
@@ -339,8 +375,8 @@ export default function Hero() {
                                                 <label
                                                     key={i}
                                                     className={`flex cursor-pointer items-center gap-2 rounded-md px-2 py-1 text-sm ${checked
-                                                            ? "bg-blue-50 text-blue-700"
-                                                            : "hover:bg-gray-50"
+                                                        ? "bg-blue-50 text-blue-700"
+                                                        : "hover:bg-gray-50"
                                                         }`}
                                                 >
                                                     <input
@@ -390,18 +426,11 @@ export default function Hero() {
                     {/* Actions */}
                     <div className="mt-4 flex gap-4">
                         <button
-                            onClick={handleSearch}
-                            disabled={loading}
-                            className="flex-1 rounded-lg bg-white py-2 text-sm font-semibold text-blue-700 shadow-md transition hover:bg-white/90 disabled:cursor-not-allowed"
-                        >
-                            {loading ? "Searching…" : "Search"}
-                        </button>
-                        <button
                             onClick={handleClear}
                             disabled={loading}
-                            className="flex-1 rounded-lg bg-blue-600 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-blue-700 disabled:cursor-not-allowed"
+                            className="w-full rounded-lg bg-blue-600 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-blue-700 disabled:cursor-not-allowed"
                         >
-                            Clear
+                            Clear Filters
                         </button>
                     </div>
                 </div>

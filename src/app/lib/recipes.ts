@@ -35,8 +35,6 @@ export async function getRecepies(options: RecipeSearchOptions = {}) {
         diet,
         intolerances: toCsv(intolerances),
         query,
-        sort: "random",
-        t: Date.now(), // cache buster like before
     });
 
     const qs = new URLSearchParams(

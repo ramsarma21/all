@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { RecepiesProvider } from "@/app/context/RecepiesContext";
+import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
     title: "AllergyPatrol",
@@ -15,7 +16,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <RecepiesProvider>{children}</RecepiesProvider>
+                <RecepiesProvider>
+                    <Navbar />
+                    {children}
+                </RecepiesProvider>
             </body>
         </html>
     );
