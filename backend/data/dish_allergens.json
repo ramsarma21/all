@@ -1,0 +1,2011 @@
+{
+    "apple_pie": {
+        "name": "Apple Pie",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat flour",
+            "butter",
+            "sugar",
+            "apples"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "baby_back_ribs": {
+        "name": "Baby Back Ribs",
+        "cuisine": "American",
+        "ingredients_example": [
+            "pork ribs",
+            "barbecue sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "baklava": {
+        "name": "Baklava",
+        "cuisine": "Middle Eastern",
+        "ingredients_example": [
+            "phyllo dough",
+            "butter",
+            "walnuts",
+            "honey"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "beef_carpaccio": {
+        "name": "Beef Carpaccio",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "raw beef",
+            "parmesan",
+            "olive oil"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "beef_tartare": {
+        "name": "Beef Tartare",
+        "cuisine": "French",
+        "ingredients_example": [
+            "raw beef",
+            "egg yolk",
+            "mustard"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "beet_salad": {
+        "name": "Beet Salad",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "beets",
+            "goat cheese",
+            "greens"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "beignets": {
+        "name": "Beignets",
+        "cuisine": "French",
+        "ingredients_example": [
+            "wheat flour",
+            "milk",
+            "egg",
+            "oil"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "bibimbap": {
+        "name": "Bibimbap",
+        "cuisine": "Korean",
+        "ingredients_example": [
+            "rice",
+            "vegetables",
+            "egg",
+            "gochujang"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": true
+        }
+    },
+    "bread_pudding": {
+        "name": "Bread Pudding",
+        "cuisine": "British",
+        "ingredients_example": [
+            "bread",
+            "milk",
+            "egg",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "breakfast_burrito": {
+        "name": "Breakfast Burrito",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat tortilla",
+            "egg",
+            "cheese",
+            "sausage"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "bruschetta": {
+        "name": "Bruschetta",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "bread",
+            "tomato",
+            "olive oil"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "caesar_salad": {
+        "name": "Caesar Salad",
+        "cuisine": "Italian-American",
+        "ingredients_example": [
+            "romaine",
+            "croutons",
+            "parmesan",
+            "dressing"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "cannoli": {
+        "name": "Cannoli",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "wheat shell",
+            "ricotta",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "caprese_salad": {
+        "name": "Caprese Salad",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "mozzarella",
+            "tomato",
+            "basil"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "carrot_cake": {
+        "name": "Carrot Cake",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "wheat flour",
+            "carrot",
+            "eggs",
+            "cream cheese frosting"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "ceviche": {
+        "name": "Ceviche",
+        "cuisine": "Latin American",
+        "ingredients_example": [
+            "fish",
+            "lime",
+            "onion"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "cheesecake": {
+        "name": "Cheesecake",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "cream cheese",
+            "wheat crust",
+            "eggs"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "cheese_plate": {
+        "name": "Cheese Plate",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "assorted cheeses",
+            "crackers"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "chicken_curry": {
+        "name": "Chicken Curry",
+        "cuisine": "Indian",
+        "ingredients_example": [
+            "chicken",
+            "spices",
+            "yogurt or cream"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "chicken_quesadilla": {
+        "name": "Chicken Quesadilla",
+        "cuisine": "Mexican",
+        "ingredients_example": [
+            "wheat tortilla",
+            "chicken",
+            "cheese"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "chicken_wings": {
+        "name": "Chicken Wings",
+        "cuisine": "American",
+        "ingredients_example": [
+            "chicken wings",
+            "sauce"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "chocolate_cake": {
+        "name": "Chocolate Cake",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "wheat flour",
+            "cocoa",
+            "milk",
+            "egg"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "chocolate_mousse": {
+        "name": "Chocolate Mousse",
+        "cuisine": "French",
+        "ingredients_example": [
+            "chocolate",
+            "cream",
+            "eggs"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": false,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "churros": {
+        "name": "Churros",
+        "cuisine": "Spanish",
+        "ingredients_example": [
+            "wheat flour",
+            "oil",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "clam_chowder": {
+        "name": "Clam Chowder",
+        "cuisine": "American",
+        "ingredients_example": [
+            "clams",
+            "milk or cream",
+            "potato"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "club_sandwich": {
+        "name": "Club Sandwich",
+        "cuisine": "American",
+        "ingredients_example": [
+            "bread",
+            "turkey",
+            "bacon",
+            "mayonnaise"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "crab_cakes": {
+        "name": "Crab Cakes",
+        "cuisine": "American",
+        "ingredients_example": [
+            "crab",
+            "breadcrumbs",
+            "egg",
+            "mayonnaise"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "creme_brulee": {
+        "name": "Crème Brûlée",
+        "cuisine": "French",
+        "ingredients_example": [
+            "cream",
+            "egg yolks",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "croque_madame": {
+        "name": "Croque Madame",
+        "cuisine": "French",
+        "ingredients_example": [
+            "bread",
+            "cheese",
+            "ham",
+            "egg"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "cup_cakes": {
+        "name": "Cupcakes",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "wheat flour",
+            "milk",
+            "egg",
+            "butter"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "deviled_eggs": {
+        "name": "Deviled Eggs",
+        "cuisine": "American",
+        "ingredients_example": [
+            "eggs",
+            "mayonnaise",
+            "mustard"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": false,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "donuts": {
+        "name": "Donuts",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "wheat flour",
+            "milk",
+            "egg",
+            "oil"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "dumplings": {
+        "name": "Dumplings",
+        "cuisine": "Asian",
+        "ingredients_example": [
+            "wheat wrapper",
+            "meat or vegetables",
+            "soy sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "edamame": {
+        "name": "Edamame",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "soybeans",
+            "salt"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "eggs_benedict": {
+        "name": "Eggs Benedict",
+        "cuisine": "American",
+        "ingredients_example": [
+            "eggs",
+            "English muffin",
+            "hollandaise"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "escargots": {
+        "name": "Escargots",
+        "cuisine": "French",
+        "ingredients_example": [
+            "snails",
+            "butter",
+            "garlic"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "falafel": {
+        "name": "Falafel",
+        "cuisine": "Middle Eastern",
+        "ingredients_example": [
+            "chickpeas",
+            "herbs",
+            "pita"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": true
+        }
+    },
+    "filet_mignon": {
+        "name": "Filet Mignon",
+        "cuisine": "French",
+        "ingredients_example": [
+            "beef tenderloin",
+            "butter"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "fish_and_chips": {
+        "name": "Fish and Chips",
+        "cuisine": "British",
+        "ingredients_example": [
+            "battered fish",
+            "wheat flour",
+            "potatoes"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "foie_gras": {
+        "name": "Foie Gras",
+        "cuisine": "French",
+        "ingredients_example": [
+            "duck liver",
+            "bread toasts"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "french_fries": {
+        "name": "French Fries",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "potatoes",
+            "oil"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "french_onion_soup": {
+        "name": "French Onion Soup",
+        "cuisine": "French",
+        "ingredients_example": [
+            "onions",
+            "beef broth",
+            "bread",
+            "cheese"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "french_toast": {
+        "name": "French Toast",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "bread",
+            "egg",
+            "milk"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "fried_calamari": {
+        "name": "Fried Calamari",
+        "cuisine": "Mediterranean",
+        "ingredients_example": [
+            "squid",
+            "wheat flour",
+            "oil"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "fried_rice": {
+        "name": "Fried Rice",
+        "cuisine": "Chinese",
+        "ingredients_example": [
+            "rice",
+            "egg",
+            "soy sauce",
+            "vegetables"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "frozen_yogurt": {
+        "name": "Frozen Yogurt",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "yogurt",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": true,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "garlic_bread": {
+        "name": "Garlic Bread",
+        "cuisine": "Italian-American",
+        "ingredients_example": [
+            "bread",
+            "butter",
+            "garlic"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "gnocchi": {
+        "name": "Gnocchi",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "potato",
+            "wheat flour",
+            "egg"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "greek_salad": {
+        "name": "Greek Salad",
+        "cuisine": "Greek",
+        "ingredients_example": [
+            "feta",
+            "tomato",
+            "cucumber",
+            "olive"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "grilled_cheese_sandwich": {
+        "name": "Grilled Cheese Sandwich",
+        "cuisine": "American",
+        "ingredients_example": [
+            "bread",
+            "cheese",
+            "butter"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "grilled_salmon": {
+        "name": "Grilled Salmon",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "salmon",
+            "seasoning"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "guacamole": {
+        "name": "Guacamole",
+        "cuisine": "Mexican",
+        "ingredients_example": [
+            "avocado",
+            "onion",
+            "lime"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "gyoza": {
+        "name": "Gyoza",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "wheat wrapper",
+            "pork",
+            "cabbage",
+            "soy sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "hamburger": {
+        "name": "Hamburger",
+        "cuisine": "American",
+        "ingredients_example": [
+            "bun",
+            "ground beef",
+            "condiments"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "hot_and_sour_soup": {
+        "name": "Hot and Sour Soup",
+        "cuisine": "Chinese",
+        "ingredients_example": [
+            "broth",
+            "tofu",
+            "vinegar",
+            "soy sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "hot_dog": {
+        "name": "Hot Dog",
+        "cuisine": "American",
+        "ingredients_example": [
+            "bun",
+            "sausage"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "huevos_rancheros": {
+        "name": "Huevos Rancheros",
+        "cuisine": "Mexican",
+        "ingredients_example": [
+            "eggs",
+            "tortilla",
+            "beans",
+            "salsa"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "hummus": {
+        "name": "Hummus",
+        "cuisine": "Middle Eastern",
+        "ingredients_example": [
+            "chickpeas",
+            "tahini",
+            "olive oil"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": true
+        }
+    },
+    "ice_cream": {
+        "name": "Ice Cream",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "milk",
+            "cream",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": false,
+            "soy": false,
+            "peanut": true,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "lasagna": {
+        "name": "Lasagna",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "wheat pasta",
+            "ricotta",
+            "mozzarella",
+            "meat sauce"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "lobster_bisque": {
+        "name": "Lobster Bisque",
+        "cuisine": "French",
+        "ingredients_example": [
+            "lobster",
+            "cream",
+            "stock"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "lobster_roll_sandwich": {
+        "name": "Lobster Roll Sandwich",
+        "cuisine": "American",
+        "ingredients_example": [
+            "lobster",
+            "bun",
+            "mayonnaise"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "macaroni_and_cheese": {
+        "name": "Macaroni and Cheese",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat pasta",
+            "cheese",
+            "milk"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "macarons": {
+        "name": "Macarons",
+        "cuisine": "French",
+        "ingredients_example": [
+            "almond flour",
+            "egg whites",
+            "sugar"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "miso_soup": {
+        "name": "Miso Soup",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "miso paste",
+            "tofu",
+            "dashi"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "nachos": {
+        "name": "Nachos",
+        "cuisine": "Mexican",
+        "ingredients_example": [
+            "corn chips",
+            "cheese",
+            "salsa"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "omelette": {
+        "name": "Omelette",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "eggs",
+            "milk",
+            "cheese"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "onion_rings": {
+        "name": "Onion Rings",
+        "cuisine": "American",
+        "ingredients_example": [
+            "onion",
+            "wheat batter",
+            "oil"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "oysters": {
+        "name": "Oysters",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "raw oysters",
+            "lemon"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "pad_thai": {
+        "name": "Pad Thai",
+        "cuisine": "Thai",
+        "ingredients_example": [
+            "rice noodles",
+            "egg",
+            "peanuts",
+            "fish sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": false,
+            "soy": false,
+            "peanut": true,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "paella": {
+        "name": "Paella",
+        "cuisine": "Spanish",
+        "ingredients_example": [
+            "rice",
+            "seafood",
+            "saffron"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "pancakes": {
+        "name": "Pancakes",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat flour",
+            "milk",
+            "egg"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "panna_cotta": {
+        "name": "Panna Cotta",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "cream",
+            "sugar",
+            "gelatin"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "peking_duck": {
+        "name": "Peking Duck",
+        "cuisine": "Chinese",
+        "ingredients_example": [
+            "duck",
+            "wheat pancakes",
+            "hoisin sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "pho": {
+        "name": "Pho",
+        "cuisine": "Vietnamese",
+        "ingredients_example": [
+            "rice noodles",
+            "beef broth",
+            "herbs"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "pizza": {
+        "name": "Pizza",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "wheat crust",
+            "cheese",
+            "tomato sauce"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "pork_chop": {
+        "name": "Pork Chop",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "pork chop",
+            "seasoning"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "poutine": {
+        "name": "Poutine",
+        "cuisine": "Canadian",
+        "ingredients_example": [
+            "french fries",
+            "cheese curds",
+            "gravy"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "prime_rib": {
+        "name": "Prime Rib",
+        "cuisine": "American",
+        "ingredients_example": [
+            "beef rib roast"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "pulled_pork_sandwich": {
+        "name": "Pulled Pork Sandwich",
+        "cuisine": "American",
+        "ingredients_example": [
+            "bun",
+            "pulled pork",
+            "barbecue sauce"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "ramen": {
+        "name": "Ramen",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "wheat noodles",
+            "broth",
+            "soy sauce",
+            "egg"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "ravioli": {
+        "name": "Ravioli",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "wheat pasta",
+            "cheese filling"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "red_velvet_cake": {
+        "name": "Red Velvet Cake",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat flour",
+            "cocoa",
+            "buttermilk",
+            "egg",
+            "cream cheese frosting"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "risotto": {
+        "name": "Risotto",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "arborio rice",
+            "parmesan",
+            "stock"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "samosa": {
+        "name": "Samosa",
+        "cuisine": "Indian",
+        "ingredients_example": [
+            "wheat pastry",
+            "potato",
+            "peas",
+            "spices"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "sashimi": {
+        "name": "Sashimi",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "raw fish"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "scallops": {
+        "name": "Scallops",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "scallops",
+            "butter"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "seaweed_salad": {
+        "name": "Seaweed Salad",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "seaweed",
+            "vinegar",
+            "sesame"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": true
+        }
+    },
+    "shrimp_and_grits": {
+        "name": "Shrimp and Grits",
+        "cuisine": "American",
+        "ingredients_example": [
+            "shrimp",
+            "grits",
+            "butter",
+            "cheese"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "spaghetti_bolognese": {
+        "name": "Spaghetti Bolognese",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "wheat spaghetti",
+            "meat sauce",
+            "parmesan"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "spaghetti_carbonara": {
+        "name": "Spaghetti Carbonara",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "wheat spaghetti",
+            "egg",
+            "parmesan",
+            "pancetta"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "spring_rolls": {
+        "name": "Spring Rolls",
+        "cuisine": "Asian",
+        "ingredients_example": [
+            "wrapper",
+            "vegetables",
+            "meat or shrimp"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": true,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "steak": {
+        "name": "Steak",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "beef steak"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": false,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "strawberry_shortcake": {
+        "name": "Strawberry Shortcake",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat cake",
+            "cream",
+            "strawberries"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": true,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "sushi": {
+        "name": "Sushi",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "rice",
+            "nori",
+            "fish"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "tacos": {
+        "name": "Tacos",
+        "cuisine": "Mexican",
+        "ingredients_example": [
+            "tortilla",
+            "meat",
+            "cheese"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": false,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "takoyaki": {
+        "name": "Takoyaki",
+        "cuisine": "Japanese",
+        "ingredients_example": [
+            "wheat batter",
+            "octopus",
+            "sauce"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": true,
+            "sesame": false
+        }
+    },
+    "tiramisu": {
+        "name": "Tiramisu",
+        "cuisine": "Italian",
+        "ingredients_example": [
+            "mascarpone",
+            "ladyfingers",
+            "egg"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    },
+    "tuna_tartare": {
+        "name": "Tuna Tartare",
+        "cuisine": "Global",
+        "ingredients_example": [
+            "raw tuna",
+            "soy sauce",
+            "oil"
+        ],
+        "allergens": {
+            "milk": false,
+            "egg": false,
+            "wheat": true,
+            "soy": true,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": true,
+            "shellfish": false,
+            "sesame": true
+        }
+    },
+    "waffles": {
+        "name": "Waffles",
+        "cuisine": "American",
+        "ingredients_example": [
+            "wheat flour",
+            "milk",
+            "egg",
+            "butter"
+        ],
+        "allergens": {
+            "milk": true,
+            "egg": true,
+            "wheat": true,
+            "soy": false,
+            "peanut": false,
+            "tree_nut": false,
+            "fish": false,
+            "shellfish": false,
+            "sesame": false
+        }
+    }
+}

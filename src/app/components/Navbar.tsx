@@ -39,6 +39,15 @@ export default function Navbar() {
                         >
                             About
                         </Link>
+                        <Link
+                            href="/scanner"
+                            className={`font-medium transition ${isActive("/scanner")
+                                ? "text-blue-600 border-b-2 border-blue-600"
+                                : "text-gray-700 hover:text-blue-600"
+                                }`}
+                        >
+                            Detection Model
+                        </Link>
                     </div>
                 </div>
             </div>
